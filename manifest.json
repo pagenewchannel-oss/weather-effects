@@ -1,0 +1,8 @@
+{
+    "name": "Weather Effects",
+    "description": "Меняет погоду в подвале, потому что нам скучно жить.",
+    "version": "1.0.0",
+    "author": "Anonymous",
+    "js": ["index.js"],
+    "css": ["style.css"]
+}
