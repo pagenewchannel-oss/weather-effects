@@ -26,6 +26,9 @@ jQuery(async () => {
 function checkWeather(data) {
     if (!data || !data.mes) return;
     const text = data.mes.toLowerCase();
+
+    alert("Функция услышала сообщение! Текст: " + text);
+
     const layer = $("#weather-layer");
 
     if (text.includes("комната") || text.includes("внутри") || text.includes("подвал")) {
